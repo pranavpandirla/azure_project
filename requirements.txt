@@ -1,0 +1,40 @@
+# Azure E-commerce Data Engineering Pipeline
+# Python Dependencies
+
+# Core Data Processing
+pandas==2.1.4
+numpy==1.26.2
+
+# Azure SDK
+azure-storage-blob==12.19.0
+azure-storage-file-datalake==12.14.0
+azure-identity==1.15.0
+azure-keyvault-secrets==4.7.0
+azure-mgmt-datafactory==6.1.0
+azure-mgmt-synapse==2.1.0
+azure-mgmt-storage==21.1.0
+
+# Spark (for local testing)
+pyspark==3.5.0
+
+# Data Validation
+great-expectations==0.18.8
+
+# Utilities
+python-dotenv==1.0.0
+PyYAML==6.0.1
+python-dateutil==2.8.2
+
+# CLI Tools
+azure-cli==2.56.0
+
+# Visualization (optional - for local testing)
+matplotlib==3.8.2
+seaborn==0.13.1
+
+# Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+
+# Logging
+loguru==0.7.2
